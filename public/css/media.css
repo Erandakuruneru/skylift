@@ -1,0 +1,37 @@
+@media only screen and (max-width: 600px) {
+	.side-navbar {
+		display: block !important;
+		position: fixed;
+		width: 100%;
+		top: 79px;
+		z-index: 2;
+		height: 60px;
+		background: #642d8c;
+		border-top: 2px solid red;
+	}
+	ul.side-navbar-menu li {
+		display: inline-block;
+		width: 68px;
+		vertical-align: top;
+	}
+	.navbar .navbar-toggler {
+		float: right;
+	}
+	.navbar {
+		font-weight: 500;
+		font-size: 0.875rem;
+		line-height: 0.875rem;
+		background-color: var(--primary) !important;
+		box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.025);
+	}
+	.nav-name {
+		display: none;
+	}
+	ul.side-navbar-menu {
+		overflow: hidden;
+		height: 60px;
+	}
+	.offcanvas-collapse ul.navbar-nav li a {
+		color: #fff !important;
+	}
+}
