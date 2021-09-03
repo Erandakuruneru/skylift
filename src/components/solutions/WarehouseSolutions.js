@@ -4,7 +4,7 @@ class WarehouseSolutions extends React.Component {
   render() {
     return (
       <div id="about">
-        <section className="about d-flex align-items-center text-light py-5">
+        <section className="warehouse-1 d-flex align-items-center text-light py-5">
           <div className="container">
             <div className="row d-flex align-items-start">
               <div className="col-lg-7" data-aos="fade-right">
@@ -24,21 +24,52 @@ class WarehouseSolutions extends React.Component {
                 requirements. Through our flexibility, we optimize your cost, and we can go the distance for you –
                 providing quality inspection, packing and any other last leg services you need to get ahead.
                 </p>
-                
-                <p className="py-2 para-light">
-                <ol>
-                <li>Automation solutions</li>
-                <li>Racking configurations</li>
-                <li>Simulated DC operations</li>
-                <li>Simulated operational financial forecasts</li>
-                <li>Distribution centre and warehouse design</li>
-                <li>Evaluation of traffic flows within the facility</li>
-                <li>Evaluation of storage capacity and options</li>
-                <li>Analysis of labour, MHE, racking and carbon footprint data</li>
-                <li>Generation of efficiency reports to assess labour and Materials Handling Equipment (MHE) </li>
-                <li>Assessment of operating parameters e.g. receipt/put-away, replenish/pick and load/dispatch.</li>
-              </ol> 
-                </p>
+                <div className='ex-basic-1 pt-5 pb-5'>
+                  <div className='col-xl-10 offset-xl-1'>
+                  <ul className="list-unstyled li-space-lg mb-4 para-light">
+                        <li className="d-flex pb-1">
+                            <i className="fas fa-square"></i>
+                            <div className="flex-grow-1"><strong>Automation solutions</strong></div>
+                        </li>
+                        <li className="d-flex  pb-1">
+                            <i className="fas fa-square"></i>
+                            <div class="flex-grow-1"><strong>Racking configurations</strong></div>
+                        </li>
+                        <li className="d-flex  pb-1">
+                            <i className="fas fa-square"></i>
+                            <div class="flex-grow-1"><strong>Simulated DC operations</strong></div>
+                        </li>
+                        <li className="d-flex  pb-1">
+                            <i className="fas fa-square"></i>
+                            <div class="flex-grow-1"><strong>Simulated operational financial forecasts</strong></div>
+                        </li>
+                        <li className="d-flex  pb-1">
+                            <i className="fas fa-square"></i>
+                            <div class="flex-grow-1"><strong>Distribution centre and warehouse design</strong></div>
+                        </li>
+                        <li className="d-flex  pb-1">
+                            <i className="fas fa-square"></i>
+                            <div class="flex-grow-1"><strong>Evaluation of traffic flows within the facility</strong></div>
+                        </li>
+                        <li className="d-flex  pb-1">
+                            <i className="fas fa-square"></i>
+                            <div class="flex-grow-1"><strong>Evaluation of storage capacity and options</strong></div>
+                        </li>
+                        <li className="d-flex  pb-1">
+                            <i className="fas fa-square"></i>
+                            <div class="flex-grow-1"><strong>Analysis of labour, MHE, racking and carbon footprint data</strong></div>
+                        </li>
+                        <li className="d-flex  pb-1">
+                            <i className="fas fa-square"></i>
+                            <div class="flex-grow-1"><strong>Generation of efficiency reports to assess labour and Materials Handling Equipment (MHE)</strong></div>
+                        </li>
+                        <li className="d-flex  pb-1">
+                            <i className="fas fa-square"></i>
+                            <div class="flex-grow-1"><strong>Assessment of operating parameters e.g. receipt/put-away, replenish/pick and load/dispatch</strong></div>
+                        </li>
+                    </ul>
+                     </div>
+                </div>
               </div>
               <div
                 className="col-lg-5 text-center py-4 py-sm-0"
@@ -52,8 +83,33 @@ class WarehouseSolutions extends React.Component {
               </div>
             </div>
           </div>
-          
         </section>
+
+   {/* <div className='ex-basic-1 pt-5 pb-5'>
+   <div className="container"> 
+      <div className ='row'>
+        <div className='col-xl-10 offset-xl-1'>
+        <ul className="list-unstyled li-space-lg mb-4 para-light">
+                        <li className="d-flex pb-1">
+                            <i className="fas fa-square"></i>
+                            <div className="flex-grow-1"><strong>Modified or unmodified</strong>  my speaking. Direct wholly valley or uneasy it at really. Sir wish like said dull and need make. Sportsman one bed departure rapturous situation disposing his. Off say yet ample which is here</div>
+                        </li>
+                        <li className="d-flex  pb-1">
+                            <i className="fas fa-square"></i>
+                            <div class="flex-grow-1"><strong>You can use our templates</strong>  ounted repeated entirely ye returned. These ample proposition ready timed enjoy might sir yet one since. Years drift never if could forty being no. On estimable dependent as suffering on my</div>
+                        </li>
+                        <li class="d-flex  pb-1">
+                            <i class="fas fa-square"></i>
+                            <div class="flex-grow-1"><strong>For redistribution or resale</strong> repeated entirely ye returned. These ready timed enjoy might sir yet one since. Years drift never if could forty being no. On estimable few more words dependent as suffering on my rank</div>
+                        </li>
+                    </ul>
+        </div>
+      </div>
+   </div>
+   </div> */}
+
+
+
         <section className="about d-flex align-items-center text-light py-5">
           <div className="container">
             <div className="row d-flex align-items-center">

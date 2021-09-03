@@ -105,7 +105,7 @@ li {
 	position: relative;
 }
 .warehouse-1{
-	height: 105vh;
+	height: 125vh;
 	position: relative;
 }
 
@@ -643,7 +643,7 @@ li {
 	.about,
 	.about-our-company,
 .about-our-vision,
-.warehouse-1
+.warehouse-1,
 	.contact,
 	.plans {
 		height: 100%;
