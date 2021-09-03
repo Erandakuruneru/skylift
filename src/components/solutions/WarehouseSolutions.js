@@ -6,12 +6,11 @@ class WarehouseSolutions extends React.Component {
       <div id="about">
         <section className="about d-flex align-items-center text-light py-5">
           <div className="container">
-            <div className="row d-flex align-items-center">
+            <div className="row d-flex align-items-start">
               <div className="col-lg-7" data-aos="fade-right">
-                <p><b>Warehouse and Distribution</b></p>
-                {/* <h1>
-                  Our Company <br />
-                </h1> */}
+                <h1>
+                  Warehouse and Distribution<br />
+                </h1>
                 <p className="py-2 para-light">
                 Warehouses need to be as efficient as the distribution network they service. Be secure in the
                 knowledge that SKYLIFT has the expertise to ensure your warehousing solution is safe, efficient and

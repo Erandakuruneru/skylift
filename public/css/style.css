@@ -61,7 +61,8 @@ h6 {
 
 h1 {
 	font-size: 60px;
-	font-weight: 500;
+	/* font-weight: 500; */
+	font-weight: bold;
 }
 
 button {
@@ -103,6 +104,10 @@ li {
 	height: 90vh;
 	position: relative;
 }
+.warehouse-1{
+	height: 105vh;
+	position: relative;
+}
 
 .about-our-vision{
 	height: 55vh;
@@ -122,6 +127,7 @@ li {
 .why-choose-us-recognized,
 .about-our-company,
 .about-our-vision,
+.warehouse-1,
 .plans,
 .company,
 .newsletter,
@@ -637,6 +643,7 @@ li {
 	.about,
 	.about-our-company,
 .about-our-vision,
+.warehouse-1
 	.contact,
 	.plans {
 		height: 100%;
