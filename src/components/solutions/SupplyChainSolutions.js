@@ -4,14 +4,11 @@ class SupplyChainSolutions extends React.Component {
   render() {
     return (
       <div id="about">
-        <section className="about d-flex align-items-center text-light py-5">
+        <section className="supply-chain-solutions d-flex align-items-center text-light py-5">
           <div className="container">
             <div className="row d-flex align-items-center">
               <div className="col-lg-7" data-aos="fade-right">
                 <p><b>Supply Chain Solutions</b></p>
-                {/* <h1>
-                  Our Company <br />
-                </h1> */}
                 <p className="py-2 para-light">
                 If you require supply chain solutions SKYLIFT has the expertise to design innovative, market-leading
                 supply chain solutions. We also have a proven track record in successfully deploying people, assets
@@ -41,10 +38,7 @@ class SupplyChainSolutions extends React.Component {
                 />
               </div>
             </div>
-          </div>
-        </section>
-        <section className="about d-flex align-items-center text-light py-5">
-          <div className="container">
+
             <div className="row d-flex align-items-center">
               <div className="col-lg-7" data-aos="fade-right">
                 <p><b>Warehouse solutions</b></p>
@@ -82,10 +76,6 @@ class SupplyChainSolutions extends React.Component {
                 />
               </div>
             </div>
-          </div>
-        </section>
-        <section className="about d-flex align-items-center text-light py-5">
-          <div className="container">
             <div className="row d-flex align-items-center">
               <div className="col-lg-7" data-aos="fade-right">
                 <p><b>Transport Management System</b></p>
@@ -132,7 +122,6 @@ integrity of all operations. </li>
             </div>
           </div>
         </section>
-
       </div>
     );
   }

@@ -33,39 +33,39 @@ class WarehouseSolutions extends React.Component {
                         </li>
                         <li className="d-flex  pb-1">
                             <i className="fas fa-square"></i>
-                            <div class="flex-grow-1"><strong>Racking configurations</strong></div>
+                            <div className="flex-grow-1"><strong>Racking configurations</strong></div>
                         </li>
                         <li className="d-flex  pb-1">
                             <i className="fas fa-square"></i>
-                            <div class="flex-grow-1"><strong>Simulated DC operations</strong></div>
+                            <div className="flex-grow-1"><strong>Simulated DC operations</strong></div>
                         </li>
                         <li className="d-flex  pb-1">
                             <i className="fas fa-square"></i>
-                            <div class="flex-grow-1"><strong>Simulated operational financial forecasts</strong></div>
+                            <div className="flex-grow-1"><strong>Simulated operational financial forecasts</strong></div>
                         </li>
                         <li className="d-flex  pb-1">
                             <i className="fas fa-square"></i>
-                            <div class="flex-grow-1"><strong>Distribution centre and warehouse design</strong></div>
+                            <div className="flex-grow-1"><strong>Distribution centre and warehouse design</strong></div>
                         </li>
                         <li className="d-flex  pb-1">
                             <i className="fas fa-square"></i>
-                            <div class="flex-grow-1"><strong>Evaluation of traffic flows within the facility</strong></div>
+                            <div className="flex-grow-1"><strong>Evaluation of traffic flows within the facility</strong></div>
                         </li>
                         <li className="d-flex  pb-1">
                             <i className="fas fa-square"></i>
-                            <div class="flex-grow-1"><strong>Evaluation of storage capacity and options</strong></div>
+                            <div className="flex-grow-1"><strong>Evaluation of storage capacity and options</strong></div>
                         </li>
                         <li className="d-flex  pb-1">
                             <i className="fas fa-square"></i>
-                            <div class="flex-grow-1"><strong>Analysis of labour, MHE, racking and carbon footprint data</strong></div>
+                            <div className="flex-grow-1"><strong>Analysis of labour, MHE, racking and carbon footprint data</strong></div>
                         </li>
                         <li className="d-flex  pb-1">
                             <i className="fas fa-square"></i>
-                            <div class="flex-grow-1"><strong>Generation of efficiency reports to assess labour and Materials Handling Equipment (MHE)</strong></div>
+                            <div className="flex-grow-1"><strong>Generation of efficiency reports to assess labour and Materials Handling Equipment (MHE)</strong></div>
                         </li>
                         <li className="d-flex  pb-1">
                             <i className="fas fa-square"></i>
-                            <div class="flex-grow-1"><strong>Assessment of operating parameters e.g. receipt/put-away, replenish/pick and load/dispatch</strong></div>
+                            <div className="flex-grow-1"><strong>Assessment of operating parameters e.g. receipt/put-away, replenish/pick and load/dispatch</strong></div>
                         </li>
                     </ul>
                      </div>
@@ -82,66 +82,86 @@ class WarehouseSolutions extends React.Component {
                 />
               </div>
             </div>
-          </div>
-        </section>
 
-   {/* <div className='ex-basic-1 pt-5 pb-5'>
-   <div className="container"> 
-      <div className ='row'>
-        <div className='col-xl-10 offset-xl-1'>
-        <ul className="list-unstyled li-space-lg mb-4 para-light">
-                        <li className="d-flex pb-1">
-                            <i className="fas fa-square"></i>
-                            <div className="flex-grow-1"><strong>Modified or unmodified</strong>  my speaking. Direct wholly valley or uneasy it at really. Sir wish like said dull and need make. Sportsman one bed departure rapturous situation disposing his. Off say yet ample which is here</div>
-                        </li>
-                        <li className="d-flex  pb-1">
-                            <i className="fas fa-square"></i>
-                            <div class="flex-grow-1"><strong>You can use our templates</strong>  ounted repeated entirely ye returned. These ample proposition ready timed enjoy might sir yet one since. Years drift never if could forty being no. On estimable dependent as suffering on my</div>
-                        </li>
-                        <li class="d-flex  pb-1">
-                            <i class="fas fa-square"></i>
-                            <div class="flex-grow-1"><strong>For redistribution or resale</strong> repeated entirely ye returned. These ready timed enjoy might sir yet one since. Years drift never if could forty being no. On estimable few more words dependent as suffering on my rank</div>
-                        </li>
-                    </ul>
-        </div>
-      </div>
-   </div>
-   </div> */}
+            <div className="row d-flex align-items-start">
+            <div className="row" data-aos="fade-down">
+                <div className="col-lg-6">
+                    <div className="card bg-transparent px-4 min-height-1">
+                        <h4 className="py-2">SKYLIFT DO</h4>
+                        {/* <p className="py-3">Complex, custom to no-frills warehousing</p> */}
+                        <div className="block d-flex align-items-center">
+                            <p className="pe-2"><i className="far fa-check-circle fa-1x"></i></p>
+                            <p>Complex, custom to no-frills warehousing</p>
+                        </div>
+                        <div className="block d-flex align-items-center">
+                            <p className="pe-2"><i className="far fa-check-circle fa-1x"></i></p>
+                            <p>Freight consolidation &amp; deconsolidation</p>
+                        </div>
+                        <div className="block d-flex align-items-center">
+                            <p className="pe-2"><i className="far fa-check-circle fa-1x"></i></p>
+                            <p>Specialized cargo handling</p>
+                        </div>
+                        <div className="block d-flex align-items-center">
+                            <p className="pe-2"><i className="far fa-check-circle fa-1x"></i></p>
+                            <p>Value added services (picking, packing, labelling &amp; tagging)</p>
+                        </div>
+                        <div className="block d-flex align-items-center">
+                            <p className="pe-2"><i className="far fa-check-circle fa-1x"></i></p>
+                            <p>Raw material &amp; finished goods storage</p>
+                        </div>
+                        <div className="block d-flex align-items-center">
+                            <p className="pe-2"><i className="far fa-check-circle fa-1x"></i></p>
+                            <p>Dangerous goods Storage</p>
+                        </div>
+                        <div className="block d-flex align-items-center">
+                            <p className="pe-2"><i className="far fa-check-circle fa-1x"></i></p>
+                            <p>Last leg value additions</p>
+                        </div>
+                        <div className="block d-flex align-items-center">
+                            <p className="pe-2"><i className="far fa-check-circle fa-1x"></i></p>
+                            <p>In house BOI &amp; customs verification</p>
+                        </div>
+                        &nbsp;
+                    </div>  
+                </div>
 
+                <div className="col-lg-6">
+                    <div className="card bg-transparent px-4 min-height-1">
+                        <h4 className="py-2">OUR FACILITIES</h4>
+                        <div className="block d-flex align-items-center">
+                            <p className="pe-2"><i className="far fa-check-circle fa-1x"></i></p>
+                            <p>Dedicated value add centre</p>
+                        </div>
+                        <div className="block d-flex align-items-center">
+                            <p className="pe-2"><i className="far fa-check-circle fa-1x"></i></p>
+                            <p>Cold and Dangerous storage &amp; handling</p>
+                        </div>
+                        <div className="block d-flex align-items-center">
+                            <p className="pe-2"><i className="far fa-check-circle fa-1x"></i></p>
+                            <p>Temperature &amp; dust controlled environments</p>
+                        </div>
+                        <div className="block d-flex align-items-center">
+                            <p className="pe-2"><i className="far fa-check-circle fa-1x"></i></p>
+                            <p>Highjump WMS technology</p>
+                        </div>
+                        <div className="block d-flex align-items-center">
+                            <p className="pe-2"><i className="far fa-check-circle fa-1x"></i></p>
+                            <p>24/7 security and CCTV</p>
+                        </div>
+                        <div className="block d-flex align-items-center">
+                            <p className="pe-2"><i className="far fa-check-circle fa-1x"></i></p>
+                            <p>Tier one WMS with business intelligence and analytics</p>
+                        </div>
+                        &nbsp;
+                        &nbsp;
+                        &nbsp;
+                    </div>  
+                </div>
+            </div>
+            </div>
 
-
-        <section className="about d-flex align-items-center text-light py-5">
-          <div className="container">
-            <div className="row d-flex align-items-center">
-              <div className="col-lg-7" data-aos="fade-right">
-                <p><b>SKYLIFT DO</b></p>
-                <p className="py-2 para-light">
-                <ol>
-                <li>Complex, custom to no-frills warehousing</li>
-                <li>Freight consolidation &amp; deconsolidation</li>
-                <li>Specialized cargo handling</li>
-                <li>Value added services (picking, packing, labelling &amp; tagging)</li>
-                <li>Raw material &amp; finished goods storage</li>
-                <li>Dangerous goods Storage</li>
-                <li>Last leg value additions</li>
-                <li>In house BOI &amp; customs verification</li>
-              </ol> 
-                </p>
-              </div>
-              <div className="col-lg-7" data-aos="fade-right">
-                <p><b>Our Facilities</b></p>
-                <p className="py-2 para-light">
-                <ol>
-                <li>Dedicated value add centre</li>
-                <li>Cold and Dangerous storage &amp; handling</li>
-                <li>Temperature &amp; dust controlled environments</li>
-                <li>Highjump WMS technology</li>
-                <li>24/7 security and CCTV</li>
-                <li>Tier one WMS with business intelligence and analytics</li>
-              </ol> 
-                </p>
-              </div>
-              <div className="col-lg-7" data-aos="fade-right">
+            <div className="row py-5">
+              <div className="col-lg-6" data-aos="fade-right">
                 <p><b>SMART solutions</b></p>
                 <p className="py-2 para-light">
                 With our SMART SOLUTIONS we provide Standardized “Best Practice” options with proven concepts
@@ -157,14 +177,7 @@ class WarehouseSolutions extends React.Component {
                 We can make them sector specific and using automation &amp; digital solutions we seek to drive down
                 cost and make SMART Solutions the most cost effective approach for our customers
                 </p>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section className="about d-flex align-items-center text-light py-5">
-          <div className="container">
-            <div className="row d-flex align-items-center">
-              <div className="col-lg-7" data-aos="fade-right">
+      
                 <p><b>Innovation across the supply chain</b></p>
                 <p className="py-2 para-light">
                   We work with renowned partners to implement the most advanced technologies in order to ensure
@@ -178,11 +191,8 @@ class WarehouseSolutions extends React.Component {
                 <p className="py-2 para-light"> 
                 Our transport management system ensures our distribution networks operate efficiently with high
                 visibility to your organisation</p>
-
-              </div>
-            </div>
-            <div className="row d-flex align-items-center">
-              <div className="col-lg-7" data-aos="fade-right">
+                </div>
+              <div className="col-lg-6 align-items-start aos-init aos-animate" data-aos="fade-down">
                 <p><b>Dangerous Cargo</b></p>
                 <p className="py-2 para-light">
                 Moving dangerous goods requires expertise, experience and a relentless commitment to safety.
@@ -197,6 +207,7 @@ class WarehouseSolutions extends React.Component {
                 dangerous goods, in compliance with local laws and stringent health and safety requirements.</p>
               </div>
             </div>
+
           </div>
         </section>
       </div>

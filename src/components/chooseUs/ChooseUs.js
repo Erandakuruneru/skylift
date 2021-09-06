@@ -38,13 +38,39 @@ class ChooseUs extends React.Component {
               </div>
 
             </div>
+            <div className="row d-flex align-items-center">
+          <div className="col-lg" data-aos="fade-right">
+              <p><b>Recognized Expertise</b></p>
+                <p className="py-2 para-light">
+                Our value chain management systems are proven and functional. Thanks to our expertise in this
+                field, we have created reliable models, which allow for significant time and cost savings, using
+                innovative digital tools.
+                </p>
+                <p><b>Safety Policy</b></p>
+                <p className="py-2 para-light">
+                Our reputation has been built on safety, compliance and a firm commitment to Chain of
+                Responsibility. Our goal is Vision ZERO. Zero fatalities. Zero injuries. Zero motor vehicle incidents.
+                Zero net emissions. Zero tolerance of unsafe behaviour.
+                </p>
+                <p><b>Quality Policy</b></p>
+                <p className="py-2 para-light">
+                Delivering customer satisfaction and continual improvement is the responsibility of every SKYLIFT
+                employee. We strive for perfection, providing our services efficiently to the required internal and
+                external standards and objectives. We operate our business in a safe, healthy and environmentally
+                responsible manner in accordance with all applicable regulations. We accept ownership and
+                accountability as individuals and as a global team.
+                </p>
+
+              </div>
+            </div>
           </div>
+
         </section>
         </div>
 
 
       <div id="home">
-      <section className="why-choose-us d-flex align-items-center text-light py-5">
+      {/* <section className="why-choose-us d-flex align-items-center text-light py-5">
           <div className="container">
             <div className="row d-flex align-items-center">
               <div className="col-lg-7" data-aos="fade-right">
@@ -72,7 +98,7 @@ class ChooseUs extends React.Component {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
         </div>
       </div>
     );

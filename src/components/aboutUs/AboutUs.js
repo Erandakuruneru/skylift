@@ -4,11 +4,10 @@ class AboutUs extends React.Component {
   render() {
     return (
       <div id="about">
-        <section className="about-our-company d-flex align-items-end text-light py-5">
+        <section className="about-our-company d-flex align-items-end text-light py-5 back-ground-black">
           <div className="container">
             <div className="row d-flex align-items-center">
               <div className="col-lg-7" data-aos="fade-right">
-                <p>ABOUT US</p>
                 <h1>
                   Our Company <br />
                 </h1>
@@ -84,8 +83,8 @@ class AboutUs extends React.Component {
             </div>
           </div>
         </section>
-{/* 
-        <section className="about d-flex align-items-center text-light py-5">
+
+        <section className="about-our-mission d-flex align-items-start text-light">
           <div className="container">
             <div className="row d-flex align-items-center">
               <div className="col-lg-7" data-aos="fade-right">
@@ -123,9 +122,9 @@ class AboutUs extends React.Component {
               </div>
             </div>
           </div>
-        </section> */}
+        </section>
 
-        {/* <section className="about d-flex align-items-center text-light py-5">
+        <section className="about-our-values d-flex align-items-center text-light py-5">
           <div className="container">
             <div className="row d-flex align-items-center">
               <div className="col-lg-7" data-aos="fade-right">
@@ -163,13 +162,13 @@ class AboutUs extends React.Component {
               </div>
             </div>
           </div>
-        </section> */}
+        </section>
 
 
         <section className="DirectorNote d-flex text-light py-5">
           <div className="container">
             <div className="row d-flex">
-              <div className="col-lg-7" data-aos="fade-right">
+              <div className="col-lg" data-aos="fade-right">
                 <h1>
                 Director Note <br />
                 </h1>
