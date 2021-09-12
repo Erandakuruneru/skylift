@@ -1,4 +1,5 @@
 import React  from 'react';
+import Search from '../search/Search';
 
 const Contact = () => {
     const style = {
@@ -6,8 +7,11 @@ const Contact = () => {
       };
   return (
   <div>
+     <div className="container">
+     <Search />
+     </div>
 
-<section className="contact d-flex align-items-center text-light py-5">
+{/* <section className="contact d-flex align-items-center text-light py-5">
           <div className="container">
             <div className="row d-flex align-items-center">
               <div className="col-lg-7" data-aos="fade-right">
@@ -43,7 +47,7 @@ const Contact = () => {
 
             </div>
           </div>
-        </section>
+        </section> */}
   </div>      
   );
 };

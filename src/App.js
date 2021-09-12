@@ -10,6 +10,7 @@ import RequestQuote from './components/sideBar/RequestQuote';
 import ChooseUs from './components/chooseUs/ChooseUs';
 import SupplyChainSolutions from './components/solutions/SupplyChainSolutions';
 import WarehouseSolutions from './components/solutions/WarehouseSolutions';
+import Search from './components/search/Search';
 
 class App extends React.Component {
   render() {
@@ -25,6 +26,7 @@ class App extends React.Component {
           <Route path='/choose-us' component ={ChooseUs}/>
           <Route path='/supply-solutions' component ={SupplyChainSolutions}/>
           <Route path='/warehouse-solutions' component ={WarehouseSolutions}/>
+          <Route path='/search' component ={Search}/>
         </Router>
         <Footer/>
     </div>

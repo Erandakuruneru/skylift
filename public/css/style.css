@@ -49,6 +49,11 @@ Table Of Contents:
 	color: #030000 !important;
 }
 /**********************End*********************************/
+.text-capabilities{
+	color: red;
+	font-size: 45px;
+	font-weight: bold;
+}
 
 h1,
 h2,
@@ -60,9 +65,9 @@ h6 {
 }
 
 h1 {
-	font-size: 60px;
+	font-size: 60px;;
 	/* font-weight: 500; */
-	font-weight: bold;
+	font-weight: bold;;
 }
 
 button {
@@ -117,6 +122,18 @@ li {
 	height: 245vh;
 	position: relative;
 }
+.home-1{
+	height: 55vh;
+	position: relative;
+}
+.home-2{
+	height: 65vh;
+	position: relative;
+}
+.home-3{
+	height: 100vh;
+	position: relative;
+}
 .warehouse-2{
 	height: 80vh;
 	position: relative;
@@ -148,6 +165,9 @@ li {
 .about-our-company,
 .about-our-vision,
 .warehouse-1,
+.home-1,
+.home-2,
+.home-3,
 .warehouse-2,
 .plans,
 .company,
@@ -340,6 +360,12 @@ li {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+}
+
+.home-bg {
+	background-image: url(../assets/images/home.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 .para {
@@ -681,6 +707,9 @@ li {
 .about-our-values,
 .supply-chain-solutions,
 .warehouse-1,
+.home-1,
+.home-2,
+.home-3,
 .warehouse-2,
 	.contact,
 	.plans {
@@ -801,17 +830,41 @@ li {
 	}
 }
 /*new css*/
+
+.search {
+	position: fixed;
+	top: 0;
+	left: 100px;
+	z-index: 2222;
+	width: 100%;
+	height: 100%;
+	background: white;
+	display: flex;
+	border-left: 5px solid --secondary;
+
+    font-size: 2.5rem;
+    font-weight: 600;
+    padding-bottom: 0;
+    background-color: #be2228;
+    background-image: url(../assets/images/menu-bg.png);
+    background-repeat: repeat;
+    opacity: 1;
+    transition: opacity .5s;
+}
+
 nav#navbar {
     padding: 20px 0;
     box-shadow: none;
     background: rgba(255,255,255,0.2);
 }
+
+
 .side-navbar {
 	position: fixed;
 	top: 0;
 	left: 0;
 	z-index: 2222;
-	width: 85px;
+	width: 100px;
 	height: 100%;
 	background: var(--primary);
 	display: flex;
@@ -831,6 +884,6 @@ ul.side-navbar-menu li a:hover {
 	margin-top: 10px;
 }
 .head-wrapper {
-	width: 87%;
+	width: 85%;
 	margin: 0 auto;
 }

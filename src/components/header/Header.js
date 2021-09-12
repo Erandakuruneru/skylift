@@ -1,5 +1,6 @@
 import React from 'react';
 import * as constants from '../../constants';
+import Search from '../search/Search';
 // import Dropdown from './Dropdown';
 
 const Header = () => {
@@ -112,6 +113,7 @@ const Header = () => {
 
                 </ul>
             </div>
+            {/* <Search/> */}
 
         </div>
     );
