@@ -173,22 +173,31 @@ class HomePage extends React.Component {
                             <div className="row g-5">
                                 <div className="col-6 text-start">
                                     <i className="fas fa-briefcase fa-2x text-start"></i>
-                                    <h2 className="purecounter" data-purecounter-start="0" data-purecounter-end="1258" data-purecounter-duration="0">1258</h2>
+                                    <h2 >
+                                    <span className="purecounter" data-purecounter-start="0" data-purecounter-end="1258" class="purecounter">1258</span>
+                                    </h2>
                                     <p>WAREHOUSING CAPACITY</p>
                                 </div>
                                 <div className="col-6">
                                     <i className="fas fa-award fa-2x"></i>
-                                    <h2 className="purecounter" data-purecounter-start="0" data-purecounter-end="150" data-purecounter-duration="0">150</h2>
+                                    <h2>
+                                    <span className="purecounter" data-purecounter-start="0" data-purecounter-end="150" class="purecounter">150</span>
+                                    </h2>
                                     <p>LEADING COMPANIES</p>
+
                                 </div>
                                 <div className="col-6">
                                     <i className="fas fa-users fa-2x"></i>
-                                    <h2 className="purecounter" data-purecounter-start="0" data-purecounter-end="1255" data-purecounter-duration="0">1255</h2>
+                                    <h2 >
+                                    <span className="purecounter" data-purecounter-start="0" data-purecounter-end="1255" class="purecounter">1255</span>
+                                    </h2>
                                     <p>VEHICLE FLEET</p>
                                 </div>
                                 <div className="col-6">
                                     <i className="fas fa-clock fa-2x"></i>
-                                    <h2 className="purecounter" data-purecounter-start="0" data-purecounter-end="1157" data-purecounter-duration="0">1157</h2>
+                                    <h2>
+                                    <span className="purecounter" data-purecounter-start="0" data-purecounter-end="1157" class="purecounter">1157</span>
+                                    </h2>
                                     <p>EMPLOYEES</p>
                                 </div>
                             </div>
