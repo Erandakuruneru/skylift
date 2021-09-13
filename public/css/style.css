@@ -23,7 +23,8 @@ Table Of Contents:
 	/* --primary: #1c262f;
 	--primary-light: #212d37; */
 	--primary: #642d8c;
-	--primary-light: #9679ad;
+	/* --primary-light: #9679ad; Old */
+	--primary-light: #f5f5f5;
 	/* --secondary: #0ee951;
 	--tertiary: #00dabf;
 	--gradient: linear-gradient(to right, #0ee951, #00dabf); */
@@ -47,6 +48,10 @@ Table Of Contents:
 
 .text-footer {
 	color: #030000 !important;
+}
+
+.home-5-bg{
+	background-color:#8190A1;
 }
 /**********************End*********************************/
 .text-capabilities{
@@ -134,6 +139,10 @@ li {
 	height: 100vh;
 	position: relative;
 }
+.home-4{
+	height: 100vh;
+	position: relative;
+}
 .warehouse-2{
 	height: 80vh;
 	position: relative;
@@ -168,6 +177,7 @@ li {
 .home-1,
 .home-2,
 .home-3,
+
 .warehouse-2,
 .plans,
 .company,
@@ -182,14 +192,16 @@ li {
 .DirectorNote {
 	background-color: #832590;
 }
-
+.home-4{
+	background-color: #f5f5f5;
+}
 .about-our-mission{
 	background-color: black;
 }
 
 
 .min-height-1{
-	min-height: 40vh;
+	min-height: 44vh;
 }
 
 
@@ -207,13 +219,15 @@ li {
 .information .fas,
 .work .fas,
 .services .fas,
+.home-2 .fas,
+.home-1 .far,
 .location .far,
 .location .fas {
-	padding: 15px 0;
-	background: -webkit-gradient(linear, left top, left bottom, from(#0ee951), to(#00dabf));
-	background-clip: text;
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+	padding: 15px 0 !important;
+	background: -webkit-gradient(linear, left top, left bottom, from(#E31e27), to(#Fd0000)) !important ;
+	background-clip: text !important;
+	-webkit-background-clip: text !important;
+	-webkit-text-fill-color: transparent !important;
 }
 
 .navbar-nav a:hover,
@@ -710,6 +724,7 @@ li {
 .home-1,
 .home-2,
 .home-3,
+.home-4,
 .warehouse-2,
 	.contact,
 	.plans {

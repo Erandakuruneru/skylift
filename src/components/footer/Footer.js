@@ -7,8 +7,8 @@ const Footer = () => {
     let whyChooseUsNavUrl = constants.URL_CHOOSE_US;
   return (
   <div>
-    <section className="footer text-light">
-        <div className="container">
+    <section className="footer text-light bg-secondary">
+        <div className="container fw-bolder">
             <div className="row" data-aos="fade-right">
                 <div className="col-lg-3 py-4 py-md-5">
                     <div className="d-flex align-items-center">

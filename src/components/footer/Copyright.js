@@ -3,11 +3,11 @@ import React from "react";
 const Copyright = () => {
   return (
     <div>
-      <div className="bottom py-2 text-footer">
+      <div className="bottom py-2 text-footer bg-secondary">
         <div className="container d-flex justify-content-between">
           <div>
             <b>
-              <p>Copyright ©SKYLIFT CONTAINER DEPOT & LOGISTICS PVT LTD. </p>
+              <p>Copyright ©SKYLIFT CONTAINER DEPOT & LOGISTICS PVT LTD. 2021 </p>
             </b>
 
             {/* <p>Distributed by: <a href="https://themewagon.com/">Themewagon</a></p> */}
