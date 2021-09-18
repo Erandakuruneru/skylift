@@ -11,12 +11,14 @@ import ChooseUs from './components/chooseUs/ChooseUs';
 import SupplyChainSolutions from './components/solutions/SupplyChainSolutions';
 import WarehouseSolutions from './components/solutions/WarehouseSolutions';
 import Search from './components/search/Search';
+import Test from './components/aboutUs/Test';
 
 class App extends React.Component {
   render() {
     return (
       <div>
         <Header/>
+        {/* <Search/> */}
         <Router>
           <Route path='/' exact component={HomePage}/>
           <Route path='/contact' component ={Contact}/>
@@ -27,6 +29,7 @@ class App extends React.Component {
           <Route path='/supply-solutions' component ={SupplyChainSolutions}/>
           <Route path='/warehouse-solutions' component ={WarehouseSolutions}/>
           <Route path='/search' component ={Search}/>
+          <Route path = '/test' component ={Test}/>
         </Router>
         <Footer/>
     </div>

@@ -1,9 +1,20 @@
 import React from "react";
-
+import Test from './Test';
 class AboutUs extends React.Component {
+  componentDidMount() {
+    // document.body.classList.remove("menu-active");
+    // document.body.classList.toggle("menu-active");
+    // document.body.classList.toggle("menu-active",window.classList.contains("is-active"))
+  }
+
+  componentDidUpdate(){
+
+  }
   render() {
     return (
       <div id="about">
+    <Test/>
+         
         <section className="about-our-company d-flex align-items-end text-light py-5 back-ground-black">
           <div className="container">
             <div className="row d-flex align-items-center">
