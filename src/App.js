@@ -12,6 +12,11 @@ import SupplyChainSolutions from './components/solutions/SupplyChainSolutions';
 import WarehouseSolutions from './components/solutions/WarehouseSolutions';
 import Search from './components/search/Search';
 import Test from './components/aboutUs/Test';
+import PrivacyPolicy from './components/footer/PrivacyPolicy';
+import Terms from './components/footer/Terms';
+import Disclaimer from './components/footer/Disclaimer';
+import FAQ from './components/footer/FAQ';
+
 
 class App extends React.Component {
   render() {
@@ -29,7 +34,10 @@ class App extends React.Component {
           <Route path='/supply-solutions' component ={SupplyChainSolutions}/>
           <Route path='/warehouse-solutions' component ={WarehouseSolutions}/>
           <Route path='/search' component ={Search}/>
-          <Route path = '/test' component ={Test}/>
+          <Route path = '/privacy-policy' component ={PrivacyPolicy}/>
+          <Route path = '/terms' component ={Terms}/>
+          <Route path = '/disclaimer' component ={Disclaimer}/>
+          <Route path = '/faq' component ={FAQ}/>
         </Router>
         <Footer/>
     </div>

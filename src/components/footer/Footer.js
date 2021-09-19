@@ -5,6 +5,11 @@ const Footer = () => {
     let contactNavUrl = constants.URL_CONTACT;
     let aboutUsNavUrl = constants.URL_ABOUT_US;
     let whyChooseUsNavUrl = constants.URL_CHOOSE_US;
+    let privacyPolicyNavUrl = constants.URL_PRIVACY_POLICY;
+    let termsNavUrl = constants.URL_TERMS;
+    let disclaimerNavUrl = constants.URL_DISCLAIMER;
+    let faqNavUrl = constants.URL_FAQ;
+    
   return (
   <div>
     <section className="footer text-light bg-secondary">
@@ -61,20 +66,20 @@ const Footer = () => {
                         <h4 className="py-2">Useful Links</h4>
                         <div className="d-flex align-items-center py-2">
                             <i className="fas fa-caret-right"></i>
-                            <a href="privacy.html"><p className="ms-3">Privacy</p></a>
+                            <a href={privacyPolicyNavUrl}><p className="ms-3">Privacy</p></a>
                             
                         </div>
                         <div className="d-flex align-items-center py-2">
                             <i className="fas fa-caret-right"></i>
-                            <a href="terms.html"><p className="ms-3">Terms</p></a>
+                            <a href={termsNavUrl}><p className="ms-3">Terms</p></a>
                         </div>
                         <div className="d-flex align-items-center py-2">
                             <i className="fas fa-caret-right"></i>
-                            <a href="#your-link"><p className="ms-3">Disclaimer</p></a>
+                            <a href={disclaimerNavUrl}><p className="ms-3">Disclaimer</p></a>
                         </div>
                         <div className="d-flex align-items-center py-2">
                             <i className="fas fa-caret-right"></i>
-                            <a href="#your-link"><p className="ms-3">FAQ</p></a>
+                            <a href={faqNavUrl}><p className="ms-3">FAQ</p></a>
                         </div>
                     </div>
                 </div>

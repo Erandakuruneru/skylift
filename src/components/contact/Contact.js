@@ -2,18 +2,15 @@ import React  from 'react';
 import Search from '../search/Search';
 
 const Contact = () => {
-    const style = {
-        width: "100%"
-      };
   return (
   <div>
-<section className="contact d-flex align-items-center text-light py-5">
+<section className="contact d-flex align-items-center py-5">
           <div className="container">
             <div className="row d-flex align-items-center">
               <div className="col-lg-7" data-aos="fade-right">
-                <p>CONTACT</p>
-                <h2 className="py-2">Send your query</h2>
-                <p className="py-2 para-light">
+                <h2 className="py-2 fw-bolder">CONTACT <br /></h2>
+                <h2 className="py-2 fw-bolder">Send your query</h2>
+                <p className="py-2 fw-bolde">
                 SKYLIFT 3PL has international experience in providing safe and efficient logistics solutions for B2B
                 and B2C operations. We are also one of the most sophisticated 3PL service providers in Sri Lanka
                 that utilizes advanced technological solutions and intelligent technologies to expedite operations.
@@ -26,7 +23,7 @@ const Contact = () => {
                                 </div>
                             </div>   
                         <div className="my-3">
-            <button className="btn-secondary text-light">Submit</button>
+            <button className="btn-secondary fw-bolder">Submit</button>
           </div>
 
               </div>

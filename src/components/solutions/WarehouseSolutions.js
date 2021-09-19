@@ -4,20 +4,18 @@ class WarehouseSolutions extends React.Component {
   render() {
     return (
       <div id="about">
-        <section className="warehouse-1 d-flex align-items-center text-light py-5">
+        <section className="warehouse-1 d-flex align-items-center py-5">
           <div className="container">
             <div className="row d-flex align-items-start">
               <div className="col-lg-7" data-aos="fade-right">
-                <h1>
-                  Warehouse and Distribution<br />
-                </h1>
-                <p className="py-2 para-light">
+                <h2 className="py-2 fw-bolder">WAREHOUSE AND DISTRIBUTION <br /></h2>
+                <p className="py-2 fw-bolde">
                 Warehouses need to be as efficient as the distribution network they service. Be secure in the
                 knowledge that SKYLIFT has the expertise to ensure your warehousing solution is safe, efficient and
                 sustainable. SKYLIFT provides a range of warehousing solutions tailored specifically to your exact
                 needs.
                 </p>
-                <p className="py-2 para-light">
+                <p className="py-2 fw-bolde">
                 We manage customer-dedicated distribution centre using cutting-edge warehouse management
                 systems and provide a comprehensive network of multi-user sites. We efficiently manage large
                 volumes of product, cater for short and long-term storage and accommodate customer overflow
@@ -26,46 +24,46 @@ class WarehouseSolutions extends React.Component {
                 </p>
                 <div className='ex-basic-1 pt-5 pb-5'>
                   <div className='col-xl-10 offset-xl-1'>
-                  <ul className="list-unstyled li-space-lg mb-4 para-light">
+                  <ul className="list-unstyled li-space-lg mb-4 fw-bolde">
                         <li className="d-flex pb-1">
                             <i className="fas fa-square"></i>
-                            <div className="flex-grow-1"><strong>Automation solutions</strong></div>
+                            <div className="flex-grow-1">Automation solutions</div>
                         </li>
                         <li className="d-flex  pb-1">
                             <i className="fas fa-square"></i>
-                            <div className="flex-grow-1"><strong>Racking configurations</strong></div>
+                            <div className="flex-grow-1">Racking configurations</div>
                         </li>
                         <li className="d-flex  pb-1">
                             <i className="fas fa-square"></i>
-                            <div className="flex-grow-1"><strong>Simulated DC operations</strong></div>
+                            <div className="flex-grow-1">Simulated DC operations</div>
                         </li>
                         <li className="d-flex  pb-1">
                             <i className="fas fa-square"></i>
-                            <div className="flex-grow-1"><strong>Simulated operational financial forecasts</strong></div>
+                            <div className="flex-grow-1">Simulated operational financial forecasts</div>
                         </li>
                         <li className="d-flex  pb-1">
                             <i className="fas fa-square"></i>
-                            <div className="flex-grow-1"><strong>Distribution centre and warehouse design</strong></div>
+                            <div className="flex-grow-1">Distribution centre and warehouse design</div>
                         </li>
                         <li className="d-flex  pb-1">
                             <i className="fas fa-square"></i>
-                            <div className="flex-grow-1"><strong>Evaluation of traffic flows within the facility</strong></div>
+                            <div className="flex-grow-1">Evaluation of traffic flows within the facility</div>
                         </li>
                         <li className="d-flex  pb-1">
                             <i className="fas fa-square"></i>
-                            <div className="flex-grow-1"><strong>Evaluation of storage capacity and options</strong></div>
+                            <div className="flex-grow-1">Evaluation of storage capacity and options</div>
                         </li>
                         <li className="d-flex  pb-1">
                             <i className="fas fa-square"></i>
-                            <div className="flex-grow-1"><strong>Analysis of labour, MHE, racking and carbon footprint data</strong></div>
+                            <div className="flex-grow-1">Analysis of labour, MHE, racking and carbon footprint data</div>
                         </li>
                         <li className="d-flex  pb-1">
                             <i className="fas fa-square"></i>
-                            <div className="flex-grow-1"><strong>Generation of efficiency reports to assess labour and Materials Handling Equipment (MHE)</strong></div>
+                            <div className="flex-grow-1">Generation of efficiency reports to assess labour and Materials Handling Equipment (MHE)</div>
                         </li>
                         <li className="d-flex  pb-1">
                             <i className="fas fa-square"></i>
-                            <div className="flex-grow-1"><strong>Assessment of operating parameters e.g. receipt/put-away, replenish/pick and load/dispatch</strong></div>
+                            <div className="flex-grow-1">Assessment of operating parameters e.g. receipt/put-away, replenish/pick and load/dispatch</div>
                         </li>
                     </ul>
                      </div>
@@ -83,11 +81,12 @@ class WarehouseSolutions extends React.Component {
               </div>
             </div>
 
-            <div className="row d-flex align-items-start">
-            <div className="row" data-aos="fade-down">
+            <div className="row d-flex align-items-start text-black-100">
+            <div className="row" data-aos="zoom-in">
                 <div className="col-lg-6">
                     <div className="card bg-transparent px-4 min-height-1">
-                        <h4 className="py-2">SKYLIFT DO</h4>
+                        <h4 className="py-2 fw-bolder">SKYLIFT DO</h4>
+                        
                         {/* <p className="py-3">Complex, custom to no-frills warehousing</p> */}
                         <div className="block d-flex align-items-center">
                             <p className="pe-2"><i className="far fa-check-circle fa-1x"></i></p>
@@ -126,8 +125,8 @@ class WarehouseSolutions extends React.Component {
                 </div>
 
                 <div className="col-lg-6">
-                    <div className="card bg-transparent px-4 min-height-1">
-                        <h4 className="py-2">OUR FACILITIES</h4>
+                    <div className="card bg-transparent px-4 min-height-1 fw-bolde">
+                        <h4 className="py-2 fw-bolder">OUR FACILITIES</h4>
                         <div className="block d-flex align-items-center">
                             <p className="pe-2"><i className="far fa-check-circle fa-1x"></i></p>
                             <p>Dedicated value add centre</p>
@@ -163,46 +162,46 @@ class WarehouseSolutions extends React.Component {
             <div className="row py-5">
               <div className="col-lg-6" data-aos="fade-right">
                 <p><b>SMART solutions</b></p>
-                <p className="py-2 para-light">
+                <p className="py-2 fw-bolde">
                 With our SMART SOLUTIONS we provide Standardized “Best Practice” options with proven concepts
                 so that we can address your needs with up-to-date, innovative best practice based on standardized
                 replicable processes &amp; systems on global scale.
                 </p>
-                <p className="py-2 para-light">
+                <p className="py-2 fw-bolde">
                 SMART Solutions are designed to drive a high level of service quality. Documentation includes
                 process descriptions, standard system configuration, including materials &amp; data flows, layout, flow
                 decision tree, productivity benchmark and training material.
                 </p>
-                <p className="py-2 para-light">
+                <p className="py-2 fw-bolde">
                 We can make them sector specific and using automation &amp; digital solutions we seek to drive down
                 cost and make SMART Solutions the most cost effective approach for our customers
                 </p>
       
                 <p><b>Innovation across the supply chain</b></p>
-                <p className="py-2 para-light">
+                <p className="py-2 fw-bolde">
                   We work with renowned partners to implement the most advanced technologies in order to ensure
                   the best service level for our customer&#39;s.
                 </p>
-                <p className="py-2 para-light">
+                <p className="py-2 fw-bolde">
                   Partner with emerging and established brands and Global Organisations <br/>
                   Invest in research to develop digital supply chains <br/>
                   Studying on advanced automation for a standard warehouse management system.<br/>
                 </p>
-                <p className="py-2 para-light"> 
+                <p className="py-2 fw-bolde"> 
                 Our transport management system ensures our distribution networks operate efficiently with high
                 visibility to your organisation</p>
                 </div>
-              <div className="col-lg-6 align-items-start aos-init aos-animate" data-aos="fade-down">
+              <div className="col-lg-6 align-items-start" data-aos="fade-left">
                 <p><b>Dangerous Cargo</b></p>
-                <p className="py-2 para-light">
+                <p className="py-2 fw-bolde">
                 Moving dangerous goods requires expertise, experience and a relentless commitment to safety.
                 SKYLIFT provides safe, secure and efficient transportation and storage of dangerous goods.
                 </p>
-                <p className="py-2 para-light">
+                <p className="py-2 fw-bolde">
                 The systems, skills and experience behind our people, fleet and warehouses make SKYLIFT one of the
                 safest and most efficient logistics companies handling dangerous goods.
                 </p>
-                <p className="py-2 para-light"> 
+                <p className="py-2 fw-bolde"> 
                 We have the expertise, training and specialised infrastructure to handle and transport a range of
                 dangerous goods, in compliance with local laws and stringent health and safety requirements.</p>
               </div>

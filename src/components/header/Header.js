@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import * as constants from "../../constants";
 import Search from "../search/Search";
+import TrackAndTrace from "../sideBar/TrackAndTrace";
 // import Dropdown from './Dropdown';
 
 class Header extends Component {
@@ -174,19 +175,17 @@ class Header extends Component {
         <div className="popover-menu">
           <ul className="popover-menu__list">
 
-
-
-             Errwwrwwrwrw
-            {/* <li className="popover-menu__item">
-              <a
-                href="#"
-                className="popover-menu__link popover-menu__link--has-child   menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children "
-              >
-                Capabilities <span className="popover-menu__link-more"></span>{" "}
-                <span className="popover-menu__angle"></span>{" "}
-              </a>
-              <div className="popover-menu__child"></div>
-            </li> */}
+          <h2 className="py-2 fw-bolder">Track &amp; Trace </h2>
+                          <div className="row" >
+                                <div className="col-lg-6">
+          <div class="form-group py-2">
+            <input type="text" class="form-control form-control-input" 
+            id="exampleFormControlInput1" 
+            
+            placeholder="Enter the code"/></div> </div></div>
+          <div className="my-3">
+          <button className = 'btn-secondary fw-bolder'>Search</button>
+          </div>
           </ul>
           <div className="popover-menu__image">
             <img src="./assets/images/feature-image.jpg" />

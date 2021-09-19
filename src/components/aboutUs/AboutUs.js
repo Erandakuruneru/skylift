@@ -1,28 +1,14 @@
 import React from "react";
-import Test from './Test';
 class AboutUs extends React.Component {
-  componentDidMount() {
-    // document.body.classList.remove("menu-active");
-    // document.body.classList.toggle("menu-active");
-    // document.body.classList.toggle("menu-active",window.classList.contains("is-active"))
-  }
-
-  componentDidUpdate(){
-
-  }
   render() {
     return (
       <div id="about">
-    <Test/>
-         
-        <section className="about-our-company d-flex align-items-end text-light py-5 back-ground-black">
+        <section className="about-our-company d-flex align-items-end  py-5">
           <div className="container">
             <div className="row d-flex align-items-center">
               <div className="col-lg-7" data-aos="fade-right">
-                <h1>
-                  Our Company <br />
-                </h1>
-                <p className="py-2 para-light">
+                <h2 className="py-2 fw-bolder">OUR COMPANY<br /></h2>
+                <p className="py-2 fw-bolde">
                   SKYLIFT specializes in seamlessly designing end-to-end
                   customized solutions to meet complex and rapidly evolving
                   supply chain needs, whatever your sector or industry. Through
@@ -31,7 +17,7 @@ class AboutUs extends React.Component {
                   constantly changing world, to ensure no comprise to your
                   supply chain.
                 </p>
-                <p className="py-2 para-light">
+                <p className="py-2 fw-bolde">
                   Our focus is always on our clients, which is why we strive to
                   continuously innovate and grow, so that we can continue to
                   meet the demands of the fast-moving global marketplace. Our
@@ -55,14 +41,12 @@ class AboutUs extends React.Component {
           </div>
         </section>
 
-        <section className="about-our-vision d-flex align-items-start text-light">
+        <section className="about-our-vision d-flex align-items-start">
           <div className="container">
             <div className="row d-flex align-items-center">
               <div className="col-lg-7" data-aos="fade-right">
-                <h1>
-                Our Vision <br />
-                </h1>
-                <p className="py-2 para-light">
+                <h2 className="py-2 fw-bolder">OUR VISION<br /></h2>
+                <p className="py-2 fw-bolde">
                   SKYLIFT specializes in seamlessly designing end-to-end
                   customized solutions to meet complex and rapidly evolving
                   supply chain needs, whatever your sector or industry. Through
@@ -71,7 +55,7 @@ class AboutUs extends React.Component {
                   constantly changing world, to ensure no comprise to your
                   supply chain.
                 </p>
-                <p className="py-2 para-light">
+                <p className="py-2 fw-bolde">
                   Our focus is always on our clients, which is why we strive to
                   continuously innovate and grow, so that we can continue to
                   meet the demands of the fast-moving global marketplace. Our
@@ -95,14 +79,12 @@ class AboutUs extends React.Component {
           </div>
         </section>
 
-        <section className="about-our-mission d-flex align-items-start text-light">
+        <section className="about-our-mission d-flex align-items-start ">
           <div className="container">
             <div className="row d-flex align-items-center">
               <div className="col-lg-7" data-aos="fade-right">
-                <h1>
-                Our Mission <br />
-                </h1>
-                <p className="py-2 para-light">
+                <h2 className="py-2 fw-bolder">OUR MISSION<br /></h2>
+                <p className="py-2 fw-bolde">
                   SKYLIFT specializes in seamlessly designing end-to-end
                   customized solutions to meet complex and rapidly evolving
                   supply chain needs, whatever your sector or industry. Through
@@ -111,7 +93,7 @@ class AboutUs extends React.Component {
                   constantly changing world, to ensure no comprise to your
                   supply chain.
                 </p>
-                <p className="py-2 para-light">
+                <p className="py-2 fw-bolde">
                   Our focus is always on our clients, which is why we strive to
                   continuously innovate and grow, so that we can continue to
                   meet the demands of the fast-moving global marketplace. Our
@@ -135,14 +117,12 @@ class AboutUs extends React.Component {
           </div>
         </section>
 
-        <section className="about-our-values d-flex align-items-center text-light py-5">
+        <section className="about-our-values d-flex align-items-center py-5">
           <div className="container">
             <div className="row d-flex align-items-center">
               <div className="col-lg-7" data-aos="fade-right">
-                <h1>
-                Our Values <br />
-                </h1>
-                <p className="py-2 para-light">
+                <h2 className="py-2 fw-bolder">OUR VALUES<br /></h2>
+                <p className="py-2 fw-bolde">
                   SKYLIFT specializes in seamlessly designing end-to-end
                   customized solutions to meet complex and rapidly evolving
                   supply chain needs, whatever your sector or industry. Through
@@ -151,7 +131,7 @@ class AboutUs extends React.Component {
                   constantly changing world, to ensure no comprise to your
                   supply chain.
                 </p>
-                <p className="py-2 para-light">
+                <p className="py-2 fw-bolde">
                   Our focus is always on our clients, which is why we strive to
                   continuously innovate and grow, so that we can continue to
                   meet the demands of the fast-moving global marketplace. Our
@@ -176,15 +156,13 @@ class AboutUs extends React.Component {
         </section>
 
 
-        <section className="DirectorNote d-flex text-light py-5">
+        <section className="DirectorNote d-flex py-5">
           <div className="container">
             <div className="row d-flex">
               <div className="col-lg" data-aos="fade-right">
-                <h1>
-                Director Note <br />
-                </h1>
+                <h1 class="headline fs-1 fw-bolder"> Director Note</h1>
       
-                <p className="py-2 para-light">
+                <p className="py-2 fw-bolde">
                   SKYLIFT specializes in seamlessly designing end-to-end
                   customized solutions to meet complex and rapidly evolving
                   supply chain needs, whatever your sector or industry. Through
@@ -193,7 +171,7 @@ class AboutUs extends React.Component {
                   constantly changing world, to ensure no comprise to your
                   supply chain.
                 </p>
-                <p className="py-2 para-light">
+                <p className="py-2 fw-bolde">
                   Our focus is always on our clients, which is why we strive to
                   continuously innovate and grow, so that we can continue to
                   meet the demands of the fast-moving global marketplace. Our
