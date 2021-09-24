@@ -11,11 +11,17 @@ class Header extends Component {
       isSearch: false,
     };
     this.onClickSearch = this.onClickSearch.bind(this);
+    this.onClickClose = this.onClickClose.bind(this);
   }
 
   onClickSearch(event) {
     document.body.classList.remove('menu-active');
   }
+
+  onClickClose(event) {
+    document.body.classList.remove('menu-active');
+  }
+  
 
   render() {
     let className = this.state.isSearch
@@ -173,7 +179,16 @@ class Header extends Component {
         </div>
 
         <div className="popover-menu">
+
           <ul className="popover-menu__list">
+            
+          {/* <div className="btn-close">
+                   <button onClick={this.onClickClose}>
+                   <i class="fas fa-window-close"></i>
+                  </button>
+                </div> */}
+
+
 
           <h2 className="py-2 fw-bolder">Track &amp; Trace </h2>
                           <div className="row" >

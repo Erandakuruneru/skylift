@@ -137,7 +137,7 @@ class HomePage extends React.Component {
                             <p className="fw-bolder">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos dicta mollitia totam explicabo obcaecati quia laudantium repudiandae.</p>
                         </div>
                         <div className="container aos-init aos-animate" data-aos="fade-up">
-                            <div className="row g-5">
+                            <div className="row g-4">
                                 <div className="col-6 text-start">
                                     <i className="fas fa-briefcase fa-2x text-start"></i>
                                     <h2 >

@@ -79,6 +79,10 @@ button {
 	font-family: sans-serif;
 }
 
+.btn-close{
+	display: none;
+}
+
 p,
 ul,
 h4 {
@@ -707,6 +711,7 @@ li {
 	margin-bottom: 0.5rem;
 }
 
+
 /*************************/
 /*     Media Queries     */
 /*************************/
@@ -715,23 +720,53 @@ li {
 	.work,
 	.testimonial,
 	.about,
-	.about-our-company,
 .about-our-vision,
 .about-our-mission,
 .about-our-values,
-.supply-chain-solutions,
-.warehouse-1,
 .home-1,
 .home-2,
 .home-3,
 .home-4,
 .privacy-policy,
+
 .warehouse-2,
-	.contact,
-	.plans {
+.plans {
 		height: 100%;
 	}
+
+	.supply-chain-solutions,
+	.why-choose-us,
+	.about-our-company,
+	.contact,
+	.warehouse-1
+	{
+		height: 100%;
+		padding-top: 10rem!important;
+	}
+
+	.col-lg-4{
+		padding-bottom: 1rem;
+		height: 100%;
+	}
+	.btn-secondary {
+		margin-bottom : 0.5rem !important;
+	}
+
+	.btn-close{
+		top: 0;
+		right: 0;
+		position: fixed;
+		margin-top: 1rem;
+		margin-right: 1rem;
+	}
+
+
 }
+
+
+
+
+
 
 @media (min-width: 992px) {
 	.slider-1 .swiper-container {
